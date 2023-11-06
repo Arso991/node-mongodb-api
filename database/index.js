@@ -3,8 +3,9 @@ const dotenv = require("dotenv")
 
 dotenv.config();
 
-const MONGODB_CONNECT_URI = "mongodb+srv://arsogn991:kp4nfnzSS3qVHkZd@coursesdb.emifxtz.coursedb.net/coursesdb?retryWrites=true&w=majority"
+/* const MONGODB_CONNECT_URI = "mongodb+srv://arsogn991:kp4nfnzSS3qVHkZd@coursesdb.emifxtz.coursedb.net/coursesdb?retryWrites=true&w=majority" */
 
+const MONGODB_CONNECT_URI = "mongodb://localhost:27017/course_managerdb"
 const db = async () =>{
     try {
         const client = await mongoose.connect(MONGODB_CONNECT_URI);
