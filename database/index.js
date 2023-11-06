@@ -3,7 +3,7 @@ const dotenv = require("dotenv")
 
 dotenv.config();
 
-const MONGODB_URL = "mongodb+srv://arsogn991:kp4nfnzSS3qVHkZd@coursesdb.emifxtz.mongodb.net/?retryWrites=true&w=majority"
+const MONGODB_CONNECT_URI = "mongodb+srv://arsogn991:kp4nfnzSS3qVHkZd@coursesdb.emifxtz.coursedb.net/?retryWrites=true&w=majority"
 
 const db = async () =>{
     try {
