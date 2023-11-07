@@ -19,7 +19,7 @@ const courseSchema = mongoose.Schema({
     },
     status:{
         type:String,
-        default:null
+        default:""
     },
     user_id:{
         type:mongoose.Schema.Types.ObjectId,
